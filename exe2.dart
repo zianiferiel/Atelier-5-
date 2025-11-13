@@ -8,4 +8,7 @@ try {
 } on FormatException {
   print('Erreur: Veuillez entrer un nombre valide pour l\'âge.');
 }
+finally {
+    print("Fin d'opération");
+}
 }
